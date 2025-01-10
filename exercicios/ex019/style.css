@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/*
+    Tudo que em HTML é ID em CSS é # 
+    *ID pode ser usado somente uma vez em cada arquivo HTML, de acordo com a W3C
+
+    Tudo que em HTML é class em CSS é .
+    *CLASS pode ser usado várias vezes dentro de um mesmo arquivo
+*/
+
+body {
+    background-color: #d6fde9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #1e402f;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: #3c805e;
+    color: white;
+}
+
+h2 {
+    color: rgb(51, 77, 49);
+}
+
+.basico {
+    color: #3c805e;
+}
+
+.intermediario{
+    color:  #80793c;
+}
+
+.avancado {
+    color:  #803c3c;
+}
+
+.destaque {
+    background-color: #c5c56070;
+}
